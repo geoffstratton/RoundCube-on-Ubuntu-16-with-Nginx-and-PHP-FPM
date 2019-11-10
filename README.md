@@ -2,7 +2,7 @@
 
 So you want to set up a webmail system. SquirrelMail was a fine community-supported project for many years, but as of July 2017 it seems to have been abandoned by its developers, so we're going to use Roundcube for our webmail system instead.
 
-This guide assumes you have Ubuntu 16 running a MariaDB-Postfix-Dovecot email server with Spamassassin. The instructions here were written using Roundcube version 1.3.
+This guide assumes you have Ubuntu 16 running a [MariaDB-Postfix-Dovecot email server](https://github.com/geoffstratton/Ubuntu-Email-Server) with SpamAssassin. The instructions here were written using Roundcube version 1.3.
 
 ## Download Roundcube
 
