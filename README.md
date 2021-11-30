@@ -82,6 +82,9 @@ $config['default_host'] = 'ssl://mail.myserver.com:993';
 $config['default_port'] = 993;
 
 // Certificate verification options for our SSL cert
+// If you're using Let's Encrypt, use these parameters instead of 'cafile':
+// 'ssl_cert' => '/etc/letsencrypt/live/mail.domain1.com/fullchain.pem',
+// 'ssl_key' => '/etc/letsencrypt/live/mail.domain1.com/privkey.pem',
 $config['imap_conn_options'] = array(
 'ssl'         => array(
     'verify_peer'  => true,
@@ -116,6 +119,9 @@ $config['smtp_helo_host'] = '';
 
 $config['smtp_timeout'] = 0;
 
+// If you're using Let's Encrypt, use these parameters instead of 'cafile':
+// 'ssl_cert' => '/etc/letsencrypt/live/mail.domain1.com/fullchain.pem',
+// 'ssl_key' => '/etc/letsencrypt/live/mail.domain1.com/privkey.pem',
 $config['smtp_conn_options'] = array (
 'ssl' =>
 array (
